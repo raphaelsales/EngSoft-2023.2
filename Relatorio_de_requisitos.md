@@ -41,7 +41,7 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 <br/>
 
 ---
-## **RF01 - Inserir nome de usuário**
+## **RF01 - Cadastrar prestador de serviço**
 
 <br/>
 
@@ -89,7 +89,7 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 <br/>
 
-#### Autor: [@CaioHPS3](https://github.com/CaioHPS3) - Caio Henrique Pinho Santos
+#### Autor: [@CaioHPS3](https://github.com/CaioHPS3) - Vinicius Maciel
 
 #### Revisor: [Diogo Eduardo da Silva](https://github.com/DioguBrabo)
 
@@ -130,11 +130,11 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 ---
 
-## **RF03 - Visualizar extrato**
+## **RF03 - Realizar Login**
 
 <br/>
 
-#### Autor: [@DioguBrabo](https://github.com/DioguBrabo) - Diogo Eduardo da Silva
+#### Autor: [@DioguBrabo](https://github.com/DioguBrabo) - Vinicius Maciel
 
 #### Revisor: [Mateus Alves Araujo](https://github.com/MateusAlvez)
 
@@ -144,7 +144,7 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | Item            | Descrição                                                                           |
 | --------------- | ----------------------------------------------------------------------------------- |
-| Caso de uso     | RF03 - Visualizar o extrato;                                                       |
+| Caso de uso     | RF03 - Realizar Login;                                                       |
 | Resumo          | Visualiza o extrato bancário de um determinado período; |
 | Ator principal  | Usuário - Visualiza seu extrato;                                                    |
 | Ator secundário | -                                                                             |
