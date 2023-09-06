@@ -41,11 +41,11 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 <br/>
 
 ---
-## **RF01 - Cadastrar prestador de serviço**
+## **RF01 - Inserir nome de usuário**
 
 <br/>
 
-#### Autor: [Vinícius Maciel](https://github.com/viniciusDevelopment)
+#### Autor: [Vinícius MAciel](https://github.com/viniciusDevelopment)
 
 #### Revisor: [Vinícius Maciel Pires](link_do_perfil_do_revisor)
 
@@ -55,12 +55,12 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | Item            | Descrição                                                                           |
 | --------------- | ----------------------------------------------------------------------------------- |
-| Caso de uso     | RF01 - Cadastrar prestador de serviço;                                                       |
-| Resumo          | Cadastrar um prestador de serviço ao sistema; |
-| Ator principal  | Prestador - se cadastrará;                                                    |
+| Caso de uso     | RF01 - Inserir nome do usuário;                                                       |
+| Resumo          | Adicionar o nome que será usado pelo usuário da conta bancária; |
+| Ator principal  | Usuário - se cadastrará;                                                    |
 | Ator secundário | -                                                                                   |
 | Pré-condição    | O(s) ator(es) deve ter acessado o sistema do aplicativo;                          |
-| Pós-condição    | A sessão dever ser iniciada.                                            |
+| Pós-condição    | O nome deverá ficar salvo na conta                                             |
 
 <br/>
 
@@ -68,8 +68,8 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | Passos  | Descrição                                           |
 | ------- | --------------------------------------------------- |
-| Passo 1 | O prestador digita seus dados cadastrais.            |
-| Passo 2 | O sistema cadastra o prestador. |
+| Passo 1 | O usuário seleciona a opção de inserir o nome no menu principal.            |
+| Passo 2 | O sistema exibe o nome do usuário. |
 
 <br/>
 
@@ -79,17 +79,17 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | User Story | Critério de aceitação |
 | --------- | --------------------- |
-| Enquanto **um prestador de serviços** eu preciso ser capaz de **criar uma conta** para que **eu possa oferecer meus seerviços** | Certifique-se de que o prestador é capaz de **acessar o sistema**.
+| Enquanto **um usuário do aplicativo** eu preciso ser capaz de **vizualizar meu saldo** para que **eu tenha um controle da minha situação financeira.** | Certifique-se de que o usuário é capaz de **acessar o aplicativo**.
 
 <br />
 
 ---
 
-## **RF02 - Cadastrar usuário**
+## **RF02 - Visualizar saldo**
 
 <br/>
 
-#### Autor: [@CaioHPS3](https://github.com/CaioHPS3) - Vinicius Maciel
+#### Autor: [@CaioHPS3](https://github.com/CaioHPS3) - Caio Henrique Pinho Santos
 
 #### Revisor: [Diogo Eduardo da Silva](https://github.com/DioguBrabo)
 
@@ -99,12 +99,12 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | Item            | Descrição                                                                           |
 | --------------- | ----------------------------------------------------------------------------------- |
-| Caso de uso     | RF02 - Cadastrar usuário;                                                       |
-| Resumo          | O usuario pode se cadastrar no sistema; |
-| Ator principal  | Usuário - Cadastrar no sistema;                                                    |
+| Caso de uso     | RF02 - Visualizar o saldo;                                                       |
+| Resumo          | Visualiza o saldo para que possa saber sua situação bancaria; |
+| Ator principal  | Usuário - Visualiza seu saldo;                                                    |
 | Ator secundário | -                                                                                   |
 | Pré-condição    | O(s) ator(es) deve ter acessado o sistema do aplicativo;                          |
-| Pós-condição    |  A sessão dever ser iniciada.                                                                                   |
+| Pós-condição    | -                                                                                   |
 
 <br/>
 
@@ -112,8 +112,8 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | Passos  | Descrição                                           |
 | ------- | --------------------------------------------------- |
-| Passo 1 | O usuário digita seus dados cadastrais.            |
-| Passo 2 | O sistema cadastra o usuario.
+| Passo 1 | O usuário seleciona a opção de visualizar o saldo no menu principal.            |
+| Passo 2 | O sistema exibe o saldo altual do usuário.
 
 <br/>
 
@@ -123,18 +123,18 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | User Story | Critério de aceitação |
 | --------- | --------------------- |
-| Enquanto **um usuário do aplicativo** eu preciso ser capaz de **me cadastrar no sistema** para que **eu possa analisar e solicitar serviços.**| Certifique-se de que o usuario é capaz de **acessar o sistema**.|
+| Enquanto **um usuário do aplicativo** eu preciso ser capaz de **vizualizar meu saldo** para que **eu tenha um controle da minha situação financeira.**| Certificar que todos campos estao preenchidos |
 
 
 <br/>
 
 ---
 
-## **RF03 - Realizar Login**
+## **RF03 - Visualizar extrato**
 
 <br/>
 
-#### Autor: [@DioguBrabo](https://github.com/DioguBrabo) - Vinicius Maciel
+#### Autor: [@DioguBrabo](https://github.com/DioguBrabo) - Diogo Eduardo da Silva
 
 #### Revisor: [Mateus Alves Araujo](https://github.com/MateusAlvez)
 
@@ -144,7 +144,7 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | Item            | Descrição                                                                           |
 | --------------- | ----------------------------------------------------------------------------------- |
-| Caso de uso     | RF03 - Realizar Login;                                                       |
+| Caso de uso     | RF03 - Visualizar o extrato;                                                       |
 | Resumo          | Visualiza o extrato bancário de um determinado período; |
 | Ator principal  | Usuário - Visualiza seu extrato;                                                    |
 | Ator secundário | -                                                                             |
@@ -804,9 +804,9 @@ Enquanto ator quando visualizo minhas despesas gostaria de poder edita-las.|	Ato
 
 <br/>
 
-#### Autor: [Gabriel Tavares dos Santos](https://github.com/GabrielUFT)
+#### Autor: [Raphael Sales de Souza](https://github.com/raphaelsales)
 
-#### Revisor: [Luis FilipeBandeira](https://github.com/luisfilipebandeira) 
+#### Revisor: [Vinicius Maciel](https://github.com/) 
 
 <br/>
 
@@ -860,9 +860,9 @@ Enquanto ator quando visualizo minhas despesas gostaria de poder edita-las.|	Ato
 
 <br/>
 
-#### Autor: [Benedito Jaime](https://github.com/beneX90)
+#### Autor: [Raphael Sales de Souza](https://github.com/raphaelsales)
 
-#### Revisor: [Jeová de Sousa](https://github.com/jeovazin1v9)
+#### Revisor: [Vinicius Maciel](https://github.com/)
 
 <br/>
 
@@ -915,9 +915,9 @@ Enquanto ator quando visualizo minhas despesas gostaria de poder edita-las.|	Ato
 
 <br/>
 
-#### Autor: [@CaioHPS3](https://github.com/CaioHPS3) - Caio Henrique Pinho Santos
+#### Autor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
 
-#### Revisor: [Diogo Eduardo da Silva](https://github.com/DioguBrabo)
+#### Revisor: [Raphael Sales de Souza](https://github.com/raphaelsales)
 
 <br/>
 
@@ -960,9 +960,10 @@ Enquanto ator quando visualizo minhas despesas gostaria de poder edita-las.|	Ato
 
 <br/>
 
-#### Autor: [@DioguBrabo](https://github.com/DioguBrabo) - Diogo Eduardo da Silva
+#### Autor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
 
-#### Revisor: [Mateus Alves Araujo](https://github.com/MateusAlvez)
+#### Revisor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
+
 
 <br/>
 
@@ -1012,8 +1013,9 @@ Enquanto ator quando visualizo minhas despesas gostaria de poder edita-las.|	Ato
 
 <br/>
 
-#### Autor: [Érick Santos Marçal](https://github.com/erarich)
-#### Revisor: [Gabriel Tavares](https://github.com/GabrielUFT)
+#### Autor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
+#### Revisor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
+
 
 <br />
 
@@ -1074,8 +1076,8 @@ Enquanto ator quando visualizo minhas despesas gostaria de poder edita-las.|	Ato
 
 <br/>
 
-#### Autor: [Ícaro Mesquita Ponce](https://github.com/icaromp)
-#### Revisor: [Caio Henrique Pinho](https://github.com/CaioHPS3)
+#### Autor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
+#### Revisor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
 
 <br />
 
@@ -1136,9 +1138,11 @@ Enquanto ator quando visualizo minhas despesas gostaria de poder edita-las.|	Ato
 
 <br/>
 
-#### Autor: [@jeovazin1v9](https://github.com/jeovazin1v9) - Jeová de Sousa Barbosa
+#### Autor:[Raphael Sales de Souza](https://github.com/raphaelsales) 
 
-#### Revisor: [@jpnoronhaa](https://github.com/jpnoronhaa) - João Pedro Noronha
+
+#### Revisor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
+
 
 <br/>
 
@@ -1208,8 +1212,8 @@ Enquanto ator quando visualizo minhas despesas gostaria de poder edita-las.|	Ato
 
 <br/>
 
-#### Autor: [João Pedro Noronha](https://github.com/jpnoronhaa)
-#### Revisor: [Wilque Muriel do Nascimento Coelho](https://github.com/uiuqM)
+#### Autor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
+#### Revisor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
 
 <br/>
 
@@ -1278,8 +1282,9 @@ Enquanto ator quando visualizo minhas despesas gostaria de poder edita-las.|	Ato
 
 <br/>
 
-#### Autor: [@98loann](https://github.com/98loann)
-#### Revisor: [Sophia Menezes Pontes](https://github.com/SophiaMenezes)
+#### Autor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
+#### Revisor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
+
 
 <br/>
 
@@ -1347,8 +1352,8 @@ Enquanto ator quando visualizo minhas despesas gostaria de poder edita-las.|	Ato
 
 <br/>
 
-#### Autor: [Luis Filipe Bandeira](https://github.com/luisfilipebandeira)
-#### Revisor: [Érick Santos Marçal](https://github.com/erarich)
+#### Autor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
+#### Revisor: [Raphael Sales de Souza](https://github.com/raphaelsales) 
 
 <br/>
 
