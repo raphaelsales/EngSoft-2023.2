@@ -17,41 +17,26 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 ## Iteração 1
 
-
 - [X] RF01 -  Cadastrar prestador de serviço. [Benedito Jaime](https://github.com/beneX90) Revisado por [Jeová de Sousa Barbosa](https://github.com/jeovazin1v9)
 - [X] RF02 - Cadastrar usuário. [Caio Henrique Pinho Santos](https://github.com/CaioHPS3) Revisado por [Diogo Eduardo da Silva](https://github.com/DioguBrabo)
 - [X] RF03 -  Realizar Login. [Diogo Eduardo da Silva](https://github.com/DioguBrabo) Revisado por [Mateus Alves Araujo](https://github.com/MateusAlvez)
 - [X] RF04 -  Buscar prestadores de serviço por critérios. [Érick Santos Marçal](https://github.com/erarich) Revisado por [Gabriel Tavares](https://github.com/GabrielUFT)
 - [X] RF05 - Enviar solicitação de serviço. [Ícaro Mesquita Ponce](https://github.com/icarompo) Revisado por [Caio Henrique Pinho Santos](https://github.com/CaioHPS3)
-- [X] RF06 - Visualizar receitas (valor) no mês. [Jeová de Sousa Barbosa](https://github.com/jeovazin1v9) Revisado por [João Pedro Noronha](https://github.com/jpnoronhaa)
-- [X] RF07 - Visualizar despesas (valor) no mês. [João Pedro Noronha](https://github.com/jpnoronhaa) Revisado por [Wilque Muriel do Nascimento Coelho](https://github.com/uiuqM)
-- [X] RF08 - Inserir conta bancária. [Luan Porto](https://github.com/98loann) Revisado por [Sophia Menezes Pontes](https://github.com/SophiaMenezes)
-- [X] RF09 - Inserir cartão de crédito. [Luis Filipe Bandeira](https://github.com/luisfilipebandeira) Revisado por [Érick Santos Marçal](https://github.com/erarich)
-- [X] RF10 - Visualizar contas bancárias. [Marcos Vinicius Barbosa e Silva](https://github.com/eziors) Revisado por [Benedito Jaime](https://github.com/beneX90))
-- [X] RF11 - Visualizar contas de crédito. [Sophia Menezes Pontes](https://github.com/SophiaMenezes) Revisado por [Luan Porto](https://github.com/98loann)
-- [X] RF12 - Editar despesas. [Wilque Muriel do Nascimento Coelho](https://github.com/uiuqM) Revisado por [Marcos Vinicius Barbosa e Silva](https://github.com/eziors)
-- [X] RF13 - Editar receitas. [Mateus Alves Araujo](https://github.com/MateusAlvez) Revisado por [Ícaro Mesquita Ponce](https://github.com/icarompo)
-- [X] RF14 - Editar conta bancária. [Gabriel Tavares](https://github.com/GabrielUFT) Revisado por [Luis Filipe Bandeira](https://github.com/luisfilipebandeira)
+- [X] RF06 - Visualizar histórico de transações. [Jeová de Sousa Barbosa](https://github.com/jeovazin1v9) Revisado por [João Pedro Noronha](https://github.com/jpnoronhaa)
+- [X] RF07 - Aceitar ou recusar solicitação de serviço. [João Pedro Noronha](https://github.com/jpnoronhaa) Revisado por [Wilque Muriel do Nascimento Coelho](https://github.com/uiuqM)
 
 <br/>
 
 ## Iteração 2
 
 
-- [X] RF15 - Editar nome de usuário. [Benedito Jaime](https://github.com/beneX90) Revisado por [Jeová de Sousa Barbosa](https://github.com/jeovazin1v9)
-- [X] RF16 - Esconder saldo. [Caio Henrique Pinho Santos](https://github.com/CaioHPS3) Revisado por [Diogo Eduardo da Silva](https://github.com/DioguBrabo)
-- [X] RF17 - Esconder extrato. [Diogo Eduardo da Silva](https://github.com/DioguBrabo) Revisado por [Mateus Alves Araujo](https://github.com/MateusAlvez)
-- [X] RF18 - Buscar despesas. [Érick Santos Marçal](https://github.com/erarich) Revisado por [Gabriel Tavares](https://github.com/GabrielUFT)
-- [X] RF19 - Buscar receita. [Ícaro Mesquita Ponce](https://github.com/icarompo) Revisado por [Caio Henrique Pinho Santos](https://github.com/CaioHPS3)
-- [X] RF20 - Visualizar extrato no mês. [Jeová de Sousa Barbosa](https://github.com/jeovazin1v9) Revisado por [João Pedro Noronha](https://github.com/jpnoronhaa)
-- [X] RF21 - Deletar conta (valor) no mês. [João Pedro Noronha](https://github.com/jpnoronhaa) Revisado por [Wilque Muriel do Nascimento Coelho](https://github.com/uiuqM)
-- [X] RF22 - Deletar conta bancária. [Luan Porto](https://github.com/98loann) Revisado por [Sophia Menezes Pontes](https://github.com/SophiaMenezes)
-- [X] RF23 - Deletar cartão de crédito. [Luis Filipe Bandeira](https://github.com/luisfilipebandeira) Revisado por [Érick Santos Marçal](https://github.com/erarich)
-- [X] RF24 - Sair do aplicativo. [Marcos Vinicius Barbosa e Silva](https://github.com/eziors) Revisado por [Benedito Jaime](https://github.com/beneX90))
-- [X] RF25 - Filtrar Contas de Crédito [Sophia Menezes Pontes](https://github.com/SophiaMenezes) Revisado por [Luan Porto](https://github.com/98loann)
-- [X] RF26 - Deletar despesas. [Wilque Muriel do Nascimento Coelho](https://github.com/uiuqM) Revisado por [Marcos Vinicius Barbosa e Silva](https://github.com/eziors)
-- [X] RF27 - Editar cartão de crédito. [Mateus Alves Araujo](https://github.com/MateusAlvez) Revisado por [Ícaro Mesquita Ponce](https://github.com/icarompo)
-- [X] RF28 - Exportar conteúdo. [Gabriel Tavares](https://github.com/GabrielUFT) Revisado por [Luis Filipe Bandeira](https://github.com/luisfilipebandeira)
+- [X] RF08 - Realizar o pagamento seguro pelo serviço prestado [Benedito Jaime](https://github.com/beneX90) Revisado por [Jeová de Sousa Barbosa](https://github.com/jeovazin1v9)
+- [X] RF09 - Avaliar e revisar prestadores de serviço. [Caio Henrique Pinho Santos](https://github.com/CaioHPS3) Revisado por [Diogo Eduardo da Silva](https://github.com/DioguBrabo)
+- [X] RF10 -  Manter perfis de prestadores de serviço atualizados (foto, descrição, etc.). [Diogo Eduardo da Silva](https://github.com/DioguBrabo) Revisado por [Mateus Alves Araujo](https://github.com/MateusAlvez)
+- [X] RF11 - Notificar usuários sobre atualizações em solicitações de serviço (aceitação, recusa, conclusão).. [Érick Santos Marçal](https://github.com/erarich) Revisado por [Gabriel Tavares](https://github.com/GabrielUFT)
+- [X] RF12 -  Permitir que os usuários editem seus perfis (informações de contato, preferências, etc.). [Ícaro Mesquita Ponce](https://github.com/icarompo) Revisado por [Caio Henrique Pinho Santos](https://github.com/CaioHPS3)
+- [X] RF13 -   Implementar funcionalidade de pesquisa avançada de prestadores de serviço (por avaliação, preço, etc.). Revisado por [João Pedro Noronha](https://github.com/jpnoronhaa)
+- [X] RF14 -Oferecer suporte a diferentes métodos de pagamento (cartão de crédito, PayPal, etc.).  [João Pedro Noronha](https://github.com/jpnoronhaa) Revisado por [Wilque Muriel do Nascimento Coelho](https://github.com/uiuqM)
 
 <br/>
 
@@ -60,9 +45,9 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 <br/>
 
-#### Autor: [Benedito Jaime](https://github.com/beneX90)
+#### Autor: [Vinícius MAciel](https://github.com/viniciusDevelopment)
 
-#### Revisor: [Jeová de Sousa](link_do_perfil_do_revisor)
+#### Revisor: [Vinícius Maciel Pires](link_do_perfil_do_revisor)
 
 <br/>
 
@@ -72,7 +57,7 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 | --------------- | ----------------------------------------------------------------------------------- |
 | Caso de uso     | RF01 - Inserir nome do usuário;                                                       |
 | Resumo          | Adicionar o nome que será usado pelo usuário da conta bancária; |
-| Ator principal  | Usuário - Colocará o nome;                                                    |
+| Ator principal  | Usuário - se cadastrará;                                                    |
 | Ator secundário | -                                                                                   |
 | Pré-condição    | O(s) ator(es) deve ter acessado o sistema do aplicativo;                          |
 | Pós-condição    | O nome deverá ficar salvo na conta                                             |
