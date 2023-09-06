@@ -19,10 +19,10 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 
 - [X] RF01 -  Cadastrar prestador de serviço. [Benedito Jaime](https://github.com/beneX90) Revisado por [Jeová de Sousa Barbosa](https://github.com/jeovazin1v9)
-- [X] RF02 - Visualizar serviços. [Caio Henrique Pinho Santos](https://github.com/CaioHPS3) Revisado por [Diogo Eduardo da Silva](https://github.com/DioguBrabo)
-- [X] RF03 - Visualizar extrato. [Diogo Eduardo da Silva](https://github.com/DioguBrabo) Revisado por [Mateus Alves Araujo](https://github.com/MateusAlvez)
-- [X] RF04 - Inserir despesas. [Érick Santos Marçal](https://github.com/erarich) Revisado por [Gabriel Tavares](https://github.com/GabrielUFT)
-- [X] RF05 - Inserir receita. [Ícaro Mesquita Ponce](https://github.com/icarompo) Revisado por [Caio Henrique Pinho Santos](https://github.com/CaioHPS3)
+- [X] RF02 - Cadastrar usuário. [Caio Henrique Pinho Santos](https://github.com/CaioHPS3) Revisado por [Diogo Eduardo da Silva](https://github.com/DioguBrabo)
+- [X] RF03 -  Realizar Login. [Diogo Eduardo da Silva](https://github.com/DioguBrabo) Revisado por [Mateus Alves Araujo](https://github.com/MateusAlvez)
+- [X] RF04 -  Buscar prestadores de serviço por critérios. [Érick Santos Marçal](https://github.com/erarich) Revisado por [Gabriel Tavares](https://github.com/GabrielUFT)
+- [X] RF05 - Enviar solicitação de serviço. [Ícaro Mesquita Ponce](https://github.com/icarompo) Revisado por [Caio Henrique Pinho Santos](https://github.com/CaioHPS3)
 - [X] RF06 - Visualizar receitas (valor) no mês. [Jeová de Sousa Barbosa](https://github.com/jeovazin1v9) Revisado por [João Pedro Noronha](https://github.com/jpnoronhaa)
 - [X] RF07 - Visualizar despesas (valor) no mês. [João Pedro Noronha](https://github.com/jpnoronhaa) Revisado por [Wilque Muriel do Nascimento Coelho](https://github.com/uiuqM)
 - [X] RF08 - Inserir conta bancária. [Luan Porto](https://github.com/98loann) Revisado por [Sophia Menezes Pontes](https://github.com/SophiaMenezes)
