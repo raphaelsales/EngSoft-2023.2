@@ -45,7 +45,7 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 <br/>
 
-#### Autor: [Vinícius MAciel](https://github.com/viniciusDevelopment)
+#### Autor: [Vinícius Maciel](https://github.com/viniciusDevelopment)
 
 #### Revisor: [Vinícius Maciel Pires](link_do_perfil_do_revisor)
 
@@ -55,12 +55,12 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | Item            | Descrição                                                                           |
 | --------------- | ----------------------------------------------------------------------------------- |
-| Caso de uso     | RF01 - Inserir nome do usuário;                                                       |
-| Resumo          | Adicionar o nome que será usado pelo usuário da conta bancária; |
-| Ator principal  | Usuário - se cadastrará;                                                    |
+| Caso de uso     | RF01 - Cadastrar prestador de serviço;                                                       |
+| Resumo          | Cadastrar um prestador de serviço ao sistema; |
+| Ator principal  | Prestador - se cadastrará;                                                    |
 | Ator secundário | -                                                                                   |
 | Pré-condição    | O(s) ator(es) deve ter acessado o sistema do aplicativo;                          |
-| Pós-condição    | O nome deverá ficar salvo na conta                                             |
+| Pós-condição    | A sessão dever ser iniciada.                                            |
 
 <br/>
 
@@ -68,8 +68,8 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | Passos  | Descrição                                           |
 | ------- | --------------------------------------------------- |
-| Passo 1 | O usuário seleciona a opção de inserir o nome no menu principal.            |
-| Passo 2 | O sistema exibe o nome do usuário. |
+| Passo 1 | O prestador digita seus dados cadastrais.            |
+| Passo 2 | O sistema cadastra o prestador. |
 
 <br/>
 
@@ -79,13 +79,13 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | User Story | Critério de aceitação |
 | --------- | --------------------- |
-| Enquanto **um usuário do aplicativo** eu preciso ser capaz de **vizualizar meu saldo** para que **eu tenha um controle da minha situação financeira.** | Certifique-se de que o usuário é capaz de **acessar o aplicativo**.
+| Enquanto **um prestador de serviços** eu preciso ser capaz de **criar uma conta** para que **eu possa oferecer meus seerviços** | Certifique-se de que o prestador é capaz de **acessar o sistema**.
 
 <br />
 
 ---
 
-## **RF02 - Visualizar saldo**
+## **RF02 - Cadastrar usuário**
 
 <br/>
 
@@ -99,12 +99,12 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | Item            | Descrição                                                                           |
 | --------------- | ----------------------------------------------------------------------------------- |
-| Caso de uso     | RF02 - Visualizar o saldo;                                                       |
-| Resumo          | Visualiza o saldo para que possa saber sua situação bancaria; |
-| Ator principal  | Usuário - Visualiza seu saldo;                                                    |
+| Caso de uso     | RF02 - Cadastrar usuário;                                                       |
+| Resumo          | O usuario pode se cadastrar no sistema; |
+| Ator principal  | Usuário - Cadastrar no sistema;                                                    |
 | Ator secundário | -                                                                                   |
 | Pré-condição    | O(s) ator(es) deve ter acessado o sistema do aplicativo;                          |
-| Pós-condição    | -                                                                                   |
+| Pós-condição    |  A sessão dever ser iniciada.                                                                                   |
 
 <br/>
 
@@ -112,8 +112,8 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | Passos  | Descrição                                           |
 | ------- | --------------------------------------------------- |
-| Passo 1 | O usuário seleciona a opção de visualizar o saldo no menu principal.            |
-| Passo 2 | O sistema exibe o saldo altual do usuário.
+| Passo 1 | O usuário digita seus dados cadastrais.            |
+| Passo 2 | O sistema cadastra o usuario.
 
 <br/>
 
@@ -123,7 +123,7 @@ Desenvolver uma plataforma de prestação de serviços que conecta prestadores d
 
 | User Story | Critério de aceitação |
 | --------- | --------------------- |
-| Enquanto **um usuário do aplicativo** eu preciso ser capaz de **vizualizar meu saldo** para que **eu tenha um controle da minha situação financeira.**| Certificar que todos campos estao preenchidos |
+| Enquanto **um usuário do aplicativo** eu preciso ser capaz de **me cadastrar no sistema** para que **eu possa analisar e solicitar serviços.**| Certifique-se de que o usuario é capaz de **acessar o sistema**.|
 
 
 <br/>
